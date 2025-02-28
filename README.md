@@ -19,14 +19,29 @@ This project is a simple **microservice** that provides basic **CRUD operations*
 go get .
 ```
 
-### **2️⃣ Start the Server**
+### **2️⃣ Start the go Server**
 Open a terminal and run:
 ```sh
 go run .
 ```
 This starts the API server on **localhost:8080**.
 
-### **3️⃣ Test API Endpoints**
+### **3️⃣ Start the React Server and Test the Components**
+> Ensure that you have npm installed on your OS.
+Open a different terminal and run:
+```sh
+cd my-app
+```
+> This changes your directory to the React project
+```sh
+npm run dev
+```
+This starts the React server on **localhost:3000**. From here, you can open **http://localhost:3000** in a new window and test the CRUD components.
+
+--- 
+### NOTE: The rest of these instructions allow you to invoke various HTTP requests in a CLI.
+
+### **4️⃣ Test API Endpoints**
 Open a different terminal and invoke various HTTP requests.
 
 #### 🔍 **Get all albums**
